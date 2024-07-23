@@ -11,7 +11,7 @@ git clone https://github.com/GuttenbergJr/ghibli_films_webscraping.git
 Certifique-se de ter o Python e o Scrapy instalados. Caso o Scrapy não esteja instalado basta utilizar o pip: ```pip install scrapy```
 
 3. Execute o Spider <br>
-Para coletar os dados dos filmes do Studio Ghibli, execute o spider usando o Scrapy: ```scrapy crawl films -O filmes_ghibli.csv ``` <br>
+Para coletar os dados dos filmes do Studio Ghibli, execute o spider usando o Scrapy: ```scrapy crawl films -O filmes_ghibli.csv ``` (no diretório do clone) <br>
 Isso iniciará o spider ghibli_spider, que vai extrair os dados dos filmes do Studio Ghibli e salvá-los no arquivo filmes_ghibli.csv no diretório atual.
 
 4. Explore os Dados Coletados <br>
